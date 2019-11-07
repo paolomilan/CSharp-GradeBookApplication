@@ -13,7 +13,7 @@ namespace GradeBook.GradeBooks
         // GetLetterGrade override which returns a char and accepts a double named averageGrade
         public override char GetLetterGrade(double averageGrade)
         {
-            if (Students.count < 5)
+            if (Students.Count < 5)
                 throw new InvalidOperationException("Ranked grading requires at least 5 students.");
 
             // Will give percentage and is rounding up to give Students a little edge
