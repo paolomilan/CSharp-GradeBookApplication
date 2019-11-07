@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using GradeBook.Enums;
 
 namespace GradeBook.GradeBooks
@@ -30,9 +31,6 @@ namespace GradeBook.GradeBooks
                 return 'D';
             else
                 return 'F';
-
-
-            return base.GetLetterGrade(averageGrade);
         }
 
     }
