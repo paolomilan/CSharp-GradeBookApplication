@@ -1,5 +1,6 @@
 ﻿namespace GradeBook.Enums
 {
+
     public enum EnrollmentType
     {
         Campus,
